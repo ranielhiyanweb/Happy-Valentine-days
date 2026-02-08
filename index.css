@@ -96,11 +96,11 @@ body {
     left: 5%;
 }
 .line3 {
-    top: 65%;
+    top: 75%;
     text-align: center;
 }
 .line4 {
-    top: 80%;
+    top: 85%;
     text-align: center;
 }
 
@@ -182,7 +182,7 @@ body {
     left: 10%;
     top: 20%; 
     transform: scale(0.6); 
-    animation: slideUp 4.3s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 5s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 5s;
     
@@ -192,7 +192,7 @@ body {
     top: 40%; 
     transform: scale(1); 
     opacity: 1;
-    animation: slideUp 4s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 6.1s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 1s;
     }
@@ -200,7 +200,7 @@ body {
     left: 50%; 
     top: 10%;
     transform: scale(0.8); 
-    animation: slideUp 3.8s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 6.9s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 5s;
 
@@ -210,7 +210,7 @@ body {
     top: 30%;
     transform: scale(0.4); 
     opacity: 1;
-    animation: slideUp 3.6s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 4s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 5s;
     
@@ -220,7 +220,7 @@ body {
     top: 50%;
     transform: scale(0.5);
     opacity: 1;
-    animation: slideUp 3.4s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 1.9s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 3s;
     
@@ -230,7 +230,7 @@ body {
     top: 60%; 
     transform: scale(0.7); 
     opacity: 1;
-    animation: slideUp 3.1s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 7.1s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 3.7s;
     
@@ -240,7 +240,7 @@ body {
     top: 20%; 
     transform: scale(0.9); 
     opacity: 1;
-    animation: slideUp 3.8s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 7.5s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 4.2s;
     
@@ -251,7 +251,7 @@ body {
     top: 40%; 
     transform: scale(0.3);
     opacity: 1;
-    animation: slideUp 4.6s linear 1, sideSway 4.1s  ease-in-out 6 alternate;
+    animation: slideUp 7.9s linear 1, sideSway 4.1s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 7.1s;
     
@@ -261,7 +261,7 @@ body {
     top: 25%; 
     transform: scale(0.6); 
     opacity: 1;
-    animation: slideUp 5.1s linear 1, sideSway 5s  ease-in-out 6 alternate;
+    animation: slideUp 8s linear 1, sideSway 5s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 1s;
     
@@ -271,7 +271,7 @@ body {
     top: 45%; 
     transform: scale(1); 
     opacity: 1;
-    animation: slideUp 1.9s linear 1, sideSway 1s  ease-in-out 6 alternate;
+    animation: slideUp 8.5s linear 1, sideSway 1s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 1.9;
     
@@ -281,7 +281,7 @@ body {
     top: 15%; 
     transform: scale(0.8); 
     opacity: 1;
-    animation: slideUp 4.5s linear 1, sideSway 3s  ease-in-out 6 alternate;
+    animation: slideUp 4.9s linear 1, sideSway 3s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 2.5;
     }
@@ -290,7 +290,7 @@ body {
     top: 35%;
     transform: scale(0.4);
     opacity: 1;
-    animation: slideUp 1.5s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 4.5s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 2.9;
     }
@@ -299,7 +299,7 @@ body {
     top: 55%; 
     transform: scale(0.5); 
     animation-delay: 1.3s; 
-    animation: slideUp 2s linear 1, sideSway 2s ease-in-out 6 alternate; 
+    animation: slideUp 2s linear 1, sideSway 2s linear 6 alternate; 
     
 }
 .a14 { 
@@ -307,7 +307,7 @@ body {
     top: 65%; 
     transform: scale(0.7); 
     opacity: 1;
-    animation: slideUp 0.9s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 4.5s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 2.4;
     
@@ -317,7 +317,7 @@ body {
     top: 25%; 
     transform: scale(0.9);
     animation-delay: 1.5s; 
-    animation: slideUp 1.2s linear 1, sideSway 2s ease-in-out 6 alternate; 
+    animation: slideUp 5.2s linear 1, sideSway 6s linear 6 alternate; 
     
 }
 .a16 {
@@ -325,7 +325,7 @@ body {
     top: 45%;
     transform: scale(0.3);
     opacity: 1;
-    animation: slideUp 1.2s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 5s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
     animation-delay: 10s;
     }
@@ -334,24 +334,24 @@ body {
     top: 28%; 
     transform: scale(0.6); 
     opacity: 1;
-    animation: slideUp 3.1s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 5.1s linear 1, sideSway 2s  linear 6 alternate;
     animation-fill-mode: forwards;
-    animation-delay: 8.1s;
+    animation-delay: 18.1s;
     }
 .a18 {
-    animation: slideUp 5s linear 1, sideSway 2s ease-in-out 6 alternate; 
+    animation: slideUp 7.1s linear 1, sideSway 2s linear 6 alternate; 
     left: 8%; 
     top: 3%;
     transform: scale(1);
-    animation-delay: 1.8s;
+    animation-delay: 18s;
     
     }
 .a19 { 
     left: 58%; 
     top: 18%; 
     transform: scale(0.8); 
-    animation-delay: 1.9s; 
-    animation: slideUp 3.6s linear 1, sideSway 2s ease-in-out 6 alternate; 
+    animation-delay: 19.5s; 
+    animation: slideUp 3.6s linear 1, sideSway 2s linear 6 alternate; 
     
 }
 .a20 {
@@ -359,9 +359,19 @@ body {
     top: 0%;
     transform: scale(0.4); 
     opacity: 1;
-    animation: slideUp 3.2s linear 1, sideSway 2s  ease-in-out 6 alternate;
+    animation: slideUp 2.2s linear 1, sideSway 2s  linear 6 infinite;
     animation-fill-mode: forwards;
-    animation-delay: 0.1s;
+    animation-delay: 19s;
+    
+}
+.a21 {
+    left: 50%; 
+    top: 0%;
+    transform: scale(1); 
+    opacity: 1;
+    animation: slideUp 22s linear 1, sideSway 2s  linear 6 alternate;
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
     
 }
 
@@ -376,28 +386,27 @@ body {
        transform: scale(0.1);
        top: 0;
     }
-    100% {
+    50% {
         top: -600px;
-        transform: scale(0.5);
+        transform: scale(1);
     }
-}
-@keyframes slideUp {
-    0% {
-       top: 0;
-       transform: scale(0);
+    80%{
+        top: -800px;
+        transform: scale(1.5);
     }
-    100% {
-        top: -600px;
-        transform: scale3d(0.8);
+    100%{
+        top: -1000px;
+        transform: scale(0);
     }
 }
 
+
 @keyframes sideSway {
     0% {
-        margin-left: 10px;
+        margin-left: 1px;
     }
-    100% {
-        margin-right: 100px;
+    100%{
+        margin-right: 500px;
     }
 }
 
