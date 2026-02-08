@@ -1,35 +1,73 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const envelope = document.getElementById('envelope');
-    const btnOpen = document.getElementById('open');
-    const btnReset = document.getElementById('reset');
-    const valentine = document.getElementById('valentine');
-    const audio = document.getElementById('audio');
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+        
+        <title>Happy Valentine's Day</title>
+    </head>
+    <body>
+     <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">Hello Lovehag,</p>
+                    <p class="words line2">Tang inamo walay jowa HAHA</p>
+                    <p class="words line3">Love lots,</p>
+                    <p class="words line4">Ranielaks</p>
+                </div>
+                <div class="hearts">
+    <div class="heart a1"></div>
+    <div class="heart a2"></div>
+    <div class="heart a3"></div>
+    <div class="heart a4"></div>
+    <div class="heart a5"></div>
+    <div class="heart a6"></div>
+    <div class="heart a7"></div>
+    <div class="heart a8"></div>
+    <div class="heart a9"></div>
+    <div class="heart a10"></div>
+    <div class="heart a11"></div>
+    <div class="heart a12"></div>
+    <div class="heart a13"></div>
+    <div class="heart a14"></div>
+    <div class="heart a15"></div>
+    <div class="heart a16"></div>
+    <div class="heart a17"></div>
+    <div class="heart a18"></div>
+    <div class="heart a19"></div>
+    <div class="heart a20"></div>
+</div>
 
-    if (!audio) {
-        console.error('Audio element not found');
-        return;
-    }
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div>
+        <h1 id="valentine" class="valentine">Happy Valentine's Day!</h1>
+        
+        
+         <div class="copyright" style="background-color:white"class="footer">
+       <span  id="active">| © | Raniel 2026...</span>
+    </div>
+    
+    
+ 
+<audio id="bgAudio" src="/background.mp4" loop autoplay></audio>
 
-    envelope.addEventListener('click', open);
-    btnOpen.addEventListener('click', open);
-    btnReset.addEventListener('click', close);
+<audio id="audio" src="meow.mp3" loop>
+    Your browser does not support the audio element.
+</audio>
 
-    function open() {
-        envelope.classList.add('open');
-        envelope.classList.remove('close');
-        valentine.innerHTML = '';
-        setTimeout(() => {
-            audio.play().catch(e => console.error('Audio play error:', e));
-        }, 2000);
-    }
 
-    function close() {
-        envelope.classList.add('close');
-        envelope.classList.remove('open');
-        valentine.innerHTML = "Happy Valentine's Day!";
-        if (audio) {
-            audio.pause();
-            audio.currentTime = 0;
-        }
-    }
-});
+
+
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
