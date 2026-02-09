@@ -6,8 +6,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const meowAudio = document.getElementById('audio');
     const bgAudio = document.getElementById('bgAudio');
+    const startBtn = document.getElementById('startAudio');
 
     let timer;
+
+    // ✅ REAL user interaction
+    startBtn.addEventListener('click', () => {
+        bgAudio.play();
+        startBtn.style.display = 'none'; // optional
+    });
 
     envelope.addEventListener('click', open);
     btnOpen.addEventListener('click', open);
@@ -17,12 +24,14 @@ document.addEventListener('DOMContentLoaded', function () {
         envelope.classList.add('open');
         envelope.classList.remove('close');
         valentine.innerHTML = '';
+        
 
-        // delay 1 second
         timer = setTimeout(() => {
-            bgAudio.pause();           // stop background
+           // bgAudio.pause();
+            bgAudio.volume = 0.3;
             meowAudio.currentTime = 0;
-            meowAudio.play();          // play meow
+            meowAudio.volume = 1;
+            meowAudio.play();
         }, 3000);
     }
 
@@ -33,11 +42,9 @@ document.addEventListener('DOMContentLoaded', function () {
         envelope.classList.remove('open');
         valentine.innerHTML = "Happy Valentine's Day!";
 
-        // stop meow
         meowAudio.pause();
         meowAudio.currentTime = 0;
-
-        // play background again
         bgAudio.play();
+        bgAudio.volume = 1;
     }
 });

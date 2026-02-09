@@ -437,6 +437,31 @@ body {
     
 }
 
+#startAudio{
+    font-weight: 800;
+    font-style: normal;
+    transition: all 0.1s linear;
+    border: solid 2px #FF6863;
+    border-radius: 4px;
+    color: #FF6863;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    line-height: 2em;
+    text-decoration: none;
+    min-width: 86%;
+    position: absolute;
+    bottom: 271px;
+    left: 25px;
+    z-index: 0;
+}
+
+#startAudio:hover {
+    background-color: #FF6863;
+    cursor: pointer;
+    color: white;
+}
+
 .reset button:hover {
     background-color: #FF6863;
     cursor: pointer;
