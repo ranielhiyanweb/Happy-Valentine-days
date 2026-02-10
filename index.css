@@ -449,11 +449,12 @@ body {
     padding: 10px;
     line-height: 2em;
     text-decoration: none;
-    min-width: 86%;
+    min-width: 89%;
     position: absolute;
-    bottom: 271px;
-    left: 25px;
+    bottom: 270px;
+    left: 20px;
     z-index: 0;
+    height: 60px;
 }
 
 #startAudio:hover {
