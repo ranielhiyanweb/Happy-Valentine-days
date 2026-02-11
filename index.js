@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         timer = setTimeout(() => {
            // bgAudio.pause();
-            bgAudio.volume = 0.3;
+            bgAudio.volume = 0.1;
             meowAudio.currentTime = 0;
             meowAudio.volume = 1;
             meowAudio.play();
-        }, 3000);
+        }, 2000);
     }
 
     function close() {
